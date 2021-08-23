@@ -1,0 +1,20 @@
+{
+  "name": "json-rpc-stack",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "A stack manager for communication purposes, designed for json-rpc communication with web3 providers services.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node examples/rpcstack-example.js"
+  },
+  "author": "Diego Correa T. <algoritmia@labormedia.cl>",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^8.2.0"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "dotenv-expand": "^5.1.0",
+    "web3-providers-ws": "^1.5.2"
+  }
+}
